@@ -36,5 +36,8 @@ ion-item.pad{
   background-color:rgb(34,181,115);
   border-color: rgb(34,181,115);
 }
+ion-side-menu.menu.menu-left{
+    background-color:rgb(34,181,115);
+}
 
 /* end of sidebar style*/
