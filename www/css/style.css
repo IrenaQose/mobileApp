@@ -2,6 +2,9 @@
 ion-side-menu.balanced.menu.menu-left{
   background-color: rgb(34,181,115);
 }
+ion-side-menu.menu.menu-left{
+  background-color: rgb(34,181,115);
+}
 .item{
   color:#fff;
   background-color: rgb(34,181,115);
