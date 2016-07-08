@@ -34,8 +34,11 @@ ion-side-menu.balanced.menu.menu-left{
 .item-complex .item-content{
 padding: 1px 1px 10px 16px;
 }
-a.item-content.pad{
+ion-item.pad.item.item-complex{
   padding-top: 30px;
+}
+ion-item.item.item-complex{
+  font-weight: 500;
 }
 /*end of sidemenu style*/
 
