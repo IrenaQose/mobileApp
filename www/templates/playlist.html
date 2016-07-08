@@ -1,5 +1,20 @@
 <ion-view view-title="Playlist">
   <ion-content>
-    <h1>Playlist</h1>
-  </ion-content>
+    <ion-list>
+      <div ng-repeat="group in groups">
+        <ion-item class="item-stable"
+        ng-click="toggleGroup(group)"
+        ng-class="{active: isGroupShown(group)}">
+        <i class="icon" ng-class="isGroupShown(group)"></i>
+        &nbsp;
+        {{group.title}}
+      </ion-item>
+      <div ng-show="isGroupShown(group)">
+        <ion-item ng-repeat="content in group.contents" class="item-accordion">
+          <a href="">{{content.line}}</a>
+        </ion-item>
+      </div>
+    </div>
+  </ion-list>
+</ion-content>
 </ion-view>
