@@ -1,4 +1,4 @@
-angular.module('starter.controllers', [])
+angular.module('starter.controllers', ['ionic'])
 
 .controller('AppCtrl', function($scope, $ionicModal, $timeout) {
 
@@ -41,16 +41,86 @@ angular.module('starter.controllers', [])
   };
 })
 
-.controller('PlaylistsCtrl', function($scope) {
-  $scope.playlists = [
-    { title: 'Reggae', id: 1 },
-    { title: 'Chill', id: 2 },
-    { title: 'Dubstep', id: 3 },
-    { title: 'Indie', id: 4 },
-    { title: 'Rap', id: 5 },
-    { title: 'Cowbell', id: 6 }
-  ];
-})
+// playlistController
 
-.controller('PlaylistCtrl', function($scope, $stateParams) {
+.controller('PlaylistsCtrl', function($scope) {
+  $scope.groups = [{
+      title: "Playlist numero uno",
+      contents: [
+        {
+          line: "DONT BE AFRAID"
+        },
+        {
+    	    line: "WHY, WHAT & WHO"
+        },
+        {
+    			line: "PITCH OR PRESENT"
+        },
+        {
+    			line: "GREAT PRESENTATIONS"
+        }
+      ]
+    },
+    {
+      title: "Playlist numero due",
+      contents: [
+        {
+          line: "WHY?"
+        },
+        {
+    	    line: "WHAT IS THE MESSAGE?"
+        },
+        {
+    			line: "WHAT IS THE VEHICLE?"
+        },
+        {
+    			line: "WHO ARE THE AUDIENCE?"
+        }
+      ]
+    },
+      {
+      title: "Itinerario interno",
+      contents: [
+        {
+          line: "BLAH"
+        },
+        {
+    	    line: "BLAH"
+        }
+      ]
+    },
+    {
+    title: "Tour completo",
+    contents: [
+      {
+        line: "BLAH"
+      },
+      {
+        line: "BLAH"
+      }
+    ]
+  },
+  {
+  title: "Itinerario esterno",
+  contents: [
+    {
+      line: "BLAH"
+    },
+    {
+      line: "BLAH"
+    }
+  ]
+}
+  ];
+  $scope.toggleGroup = function(group) {
+    if ($scope.isGroupShown(group)) {
+      $scope.shownGroup = null;
+    } else {
+      $scope.shownGroup = group;
+    }
+  };
+  $scope.isGroupShown = function(group) {
+    return $scope.shownGroup === group;
+  };
+
 });
