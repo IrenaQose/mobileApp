@@ -1,47 +1,68 @@
-/* Sidebar*/
-div.list{
+/*sidemenu style*/
+ion-side-menu.balanced.menu.menu-left{
+  background-color: rgb(34,181,115);
+}
+.item{
+  color:#fff;
+  background-color: rgb(34,181,115);
+  border-width: 0;
   text-align: center;
-  background-color:  rgb(34,181,115);
+  padding-bottom: 2px;
 }
-ion-item.item{
-  border-width: 0;
+.item.pad{
+  padding-bottom: 30px;
 }
-
-a.item.closeOperation.ion-close-round{
-  border-width: 0;
+a{
+  text-decoration: none;
+  color:white;
+}
+a.item.closeOperation{
+  color:white;
   text-align: right;
-  background-color:rgb(34,181,115);
-  color:white;
+
 }
-div.scroll{
-  color:rgb(34,181,115) ;
-}
-ion-item.item{
-  background-color:rgb(34,181,115);
-  color:white;
-}
-.item-complex .item-content{
-  background-color:rgb(34,181,115);
-  padding: 1px 0px 15px 15px;
-  font-weight: 500;
+a.item:hover, a.item:focus {
+  background-color: rgb(34,181,115);
 }
 
-ion-content.scroll-content.ionic-scroll.overflow-scroll{
-  background-color:rgb(34,181,115);
-}
-ion-item.pad{
+ion-side-menu.balanced.menu.menu-left{
   padding-top: 30px;
 }
-.item .item-content.activated{
-  background-color:rgb(34,181,115);
-  border-color: rgb(34,181,115);
-}
-ion-side-menu.menu.menu-left{
-    background-color:rgb(34,181,115);
+/*end of sidemenu style*/
+
+
+#accountContent{
+  background-color: rgb(34,181,115);
+  padding: 50px;
+  padding-top: 40px !important;
+  color: white;
 }
 
-/* end of sidebar style*/
-/*player styles*/
+.imgAccess{
+  width: 48%;
+  height: 40%;
+  padding: 10px;
+  margin-bottom: -15px;
+}
+.item-input{
+  margin-bottom: 3px;
+}
+.login-input{
+  background-color: white !important;
+}
+.button-light{
+  border-color: white !important;
+  color: white !important;
+}
+@media(max-width:320px){
+  #accountContent{
+    font-size: 12px;
+  }
+  .button-light{
+    font-size: 15px !important;
+  }
+}
+/*irena styles*/
 .tabs-striped .tabs {
   height: 60px;
 }
@@ -127,10 +148,10 @@ ion-side-menu.menu.menu-left{
   float: none;
   left: 0;
   right: 0;
-  border: none;
-  background-color: #e5e5e5;
+  position: absolute;
   text-align: right;
   font-size: 20px;
+  margin-right: 45px;
   color:#222;
 }
 #card1 {
@@ -138,48 +159,6 @@ ion-side-menu.menu.menu-left{
 }
 #card2 {
   margin-left: 5px;
-}
-/* ------- SEARCH ----*/
-.searchBar {
-	color: #fff;
-	margin: 0 !important;
-	padding: 0;
-}
-.searchBar .icon {
-	font-size: 27px;
-	line-height: 1.2;
-	padding-right: 6px;
-	padding-left: 6px;
-}
-.searchBar .searchTxt {
-	border-bottom: 1px solid #fff;
-	left: 55px;
-	width: calc(100% - 100px);
-	position: fixed;
-	height: calc(100% - 10px);
-}
-.searchBar.numicons2 .searchTxt {
-	width: calc(100% - 135px);
-}
-.searchBar .searchTxt > .bgdiv {
-	background-color: #fff;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	/*opacity: 0.3;*/
-}
-.searchBar .searchTxt > .bgtxt {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-}
-.searchBar .searchTxt input {
-	background-color: inherit;
-	color: #fff;
-	padding-left: 5px;
-	padding-right:5px;
 }
 @media(max-width:340px){
 #dash-row {
@@ -189,4 +168,4 @@ ion-side-menu.menu.menu-left{
   font-size:12px;
 }
 }
-/*end player styles*/
+/*end irena styles*/

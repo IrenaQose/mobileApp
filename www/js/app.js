@@ -90,6 +90,17 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
+
+  .state('app.single', {
+    url: '/playlists/:playlistId',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/playlist.html',
+        controller: 'PlaylistCtrl'
+      }
+    }
+  });
+
     .state('app.crediti', {
         url: '/crediti',
         views: {
@@ -97,7 +108,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
             templateUrl: 'templates/crediti.html'
           }
         }
-      });
+      })
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/app/home');
 })
