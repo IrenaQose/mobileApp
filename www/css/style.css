@@ -14,7 +14,7 @@ a.item.closeOperation.ion-close-round{
   color:white;
 }
 div.scroll{
-  color:rgb(34,181,115) ;
+  background-color:rgb(34,181,115) ;
 }
 ion-item.item{
   background-color:rgb(34,181,115);
@@ -38,3 +38,39 @@ ion-item.pad{
 }
 
 /* end of sidebar style*/
+/*login style */
+#accountContent{
+  background-color: rgb(34,181,115);
+  padding: 50px;
+  padding-top: 40px !important;
+  color: white !important;
+}
+#sliderContent{
+  background-color: rgb(34,181,115);
+  color: white;
+}
+.imgAccess{
+  width: 48%;
+  height: 40%;
+  padding: 10px;
+  margin-bottom: -15px;
+}
+.item-input{
+  margin-bottom: 3px;
+}
+.login-input{
+  background-color: white !important;
+}
+.button-light{
+  border-color: white !important;
+  color: white !important;
+}
+@media(max-width:320px){
+  #accountContent{
+    font-size: 12px;
+  }
+  .button-light{
+    font-size: 15px !important;
+  }
+}
+/*end of login style*/
