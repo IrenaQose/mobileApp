@@ -201,7 +201,7 @@ ion-side-menu.balanced.menu.menu-left{
 }
 .searchBar .searchTxt input {
 	background-color: inherit;
-	color: #fff;
+	color: #222;
 	padding-left: 5px;
 	padding-right:5px;
 }
