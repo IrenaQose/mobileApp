@@ -74,14 +74,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-// .state('app.search', {
-//     url: '/search',
-//     views: {
-//       'menuContent': {
-//         templateUrl: 'templates/search.html'
-//       }
-//     }
-//   })
 .state('app.login', {
       url: '/login',
       views: {
@@ -90,16 +82,6 @@ angular.module('starter', ['ionic', 'starter.controllers'])
         }
       }
     })
-
-  .state('app.single', {
-    url: '/playlists/:playlistId',
-    views: {
-      'menuContent': {
-        templateUrl: 'templates/playlist.html',
-        controller: 'PlaylistCtrl'
-      }
-    }
-  });
 
     .state('app.crediti', {
         url: '/crediti',
