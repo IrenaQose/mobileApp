@@ -66,6 +66,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+  .state('app.player', {
+    url: '/player',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/player.html'
+      }
+    }
+  })
   .state('app.scattaFoto', {
       url: '/scattaFoto',
       views: {
