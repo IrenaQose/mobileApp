@@ -31,6 +31,12 @@ a.item:hover, a.item:focus {
 ion-side-menu.balanced.menu.menu-left{
   padding-top: 30px;
 }
+.item-complex .item-content{
+padding: 1px 1px 10px 16px;
+}
+a.item-content.pad{
+  padding-top: 30px;
+}
 /*end of sidemenu style*/
 
 
