@@ -41,3 +41,152 @@ ion-side-menu.menu.menu-left{
 }
 
 /* end of sidebar style*/
+/*player styles*/
+.tabs-striped .tabs {
+  height: 60px;
+}
+.bar-header {
+  background-color: #e5e5e5;
+}
+#dash-list #first-divider{
+  margin-top: 54px;
+}
+#dash-list  .item-divider {
+  font-size: 14px;
+}
+#player {
+  float:right;
+  margin-right: 0;
+  margin-bottom: 100px;
+  position: initial
+}
+#player .item {
+  padding-bottom: 16px;
+  text-align:right;
+  background-color: #fff;
+}
+#player .item p {
+  color:black;
+  font-family: sans-serif;
+  font-weight:bold;
+  line-height: 1;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+#first-divider {
+  margin-top: 8px;
+}
+#dash-list .item-divider p{
+  float:right;
+  color: #fafafa;
+}
+#dash-list .item-divider{
+  text-align: left;
+}
+#dash-list .item {
+  border:none;
+}
+#dash-list .item-divider p span {
+  padding-left: 5px;
+  color: #fafafa;
+}
+.bar .title img {
+  height: 50px;
+  width:60px;
+}
+.pane, .item-divider, .item {
+  background-color:rgb(34,181,115);
+  color: #fafafa;
+}
+.item-divider {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-top: 1px solid #fff !important;
+  border-bottom: 2px solid #fff !important;
+}
+#dash-list .card {
+  margin-bottom: 10px;
+}
+#dash-list .card .item {
+  background-color: #fff;
+  color: #222;
+}
+#dash-list p {
+  color:#fff;
+}
+#dash-list .item-divider p {
+  font-size:18px;
+}
+#dash-list .item p {
+  font-family:monospace;
+}
+.bar-header .ion-ios-search {
+  float: none;
+  left: 0;
+  right: 0;
+  border: none;
+  background-color: #e5e5e5;
+  text-align: right;
+  font-size: 20px;
+  color:#222;
+}
+#card1 {
+  margin-right:5px;
+}
+#card2 {
+  margin-left: 5px;
+}
+/* ------- SEARCH ----*/
+.searchBar {
+	color: #fff;
+	margin: 0 !important;
+	padding: 0;
+}
+.searchBar .icon {
+	font-size: 27px;
+	line-height: 1.2;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+.searchBar .searchTxt {
+	border-bottom: 1px solid #fff;
+	left: 55px;
+	width: calc(100% - 100px);
+	position: fixed;
+	height: calc(100% - 10px);
+}
+.searchBar.numicons2 .searchTxt {
+	width: calc(100% - 135px);
+}
+.searchBar .searchTxt > .bgdiv {
+	background-color: #fff;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	/*opacity: 0.3;*/
+}
+.searchBar .searchTxt > .bgtxt {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.searchBar .searchTxt input {
+	background-color: inherit;
+	color: #fff;
+	padding-left: 5px;
+	padding-right:5px;
+}
+@media(max-width:340px){
+#dash-row {
+  overflow: hidden;
+}
+#dash-row p {
+  font-size:12px;
+}
+}
+/*end player styles*/
