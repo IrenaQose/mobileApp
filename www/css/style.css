@@ -1,0 +1,40 @@
+/* Sidebar*/
+div.list{
+  text-align: center;
+  background-color:  rgb(34,181,115);
+}
+ion-item.item{
+  border-width: 0;
+}
+
+a.item.closeOperation.ion-close-round{
+  border-width: 0;
+  text-align: right;
+  background-color:rgb(34,181,115);
+  color:white;
+}
+div.scroll{
+  color:rgb(34,181,115) ;
+}
+ion-item.item{
+  background-color:rgb(34,181,115);
+  color:white;
+}
+.item-complex .item-content{
+  background-color:rgb(34,181,115);
+  padding: 1px 0px 15px 15px;
+  font-weight: 500;
+}
+
+ion-content.scroll-content.ionic-scroll.overflow-scroll{
+  background-color:rgb(34,181,115);
+}
+ion-item.pad{
+  padding-top: 30px;
+}
+.item .item-content.activated{
+  background-color:rgb(34,181,115);
+  border-color: rgb(34,181,115);
+}
+
+/* end of sidebar style*/
