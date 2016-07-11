@@ -48,16 +48,13 @@ angular.module('starter.controllers', ['ionic'])
       title: "Playlist numero uno",
       contents: [
         {
-          line: "DONT BE AFRAID"
+           src:'http://bighappyface.com/Happy%20Face%20200x200.png'
         },
         {
-    	    line: "WHY, WHAT & WHO"
+    	   src:''
         },
         {
-    			line: "PITCH OR PRESENT"
-        },
-        {
-    			line: "GREAT PRESENTATIONS"
+    		 src:''
         }
       ]
     },
@@ -65,16 +62,16 @@ angular.module('starter.controllers', ['ionic'])
       title: "Playlist numero due",
       contents: [
         {
-          line: "WHY?"
+        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
         },
         {
-    	    line: "WHAT IS THE MESSAGE?"
+    	    src:''
         },
         {
-    			line: "WHAT IS THE VEHICLE?"
+    			src:''
         },
         {
-    			line: "WHO ARE THE AUDIENCE?"
+    			src:''
         }
       ]
     },
@@ -82,34 +79,52 @@ angular.module('starter.controllers', ['ionic'])
       title: "Itinerario interno",
       contents: [
         {
-          line: "BLAH"
+        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
         },
         {
-    	    line: "BLAH"
+          src:''
+        },
+        {
+          src:''
+        },
+        {
+          src:''
         }
       ]
     },
     {
     title: "Tour completo",
-    contents: [
-      {
-        line: "BLAH"
-      },
-      {
-        line: "BLAH"
-      }
-    ]
+    contents:[
+        {
+        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
+        },
+        {
+    	    src:''
+        },
+        {
+    			src:''
+        },
+        {
+    			src:''
+        }
+      ]
   },
   {
   title: "Itinerario esterno",
-  contents: [
-    {
-      line: "BLAH"
-    },
-    {
-      line: "BLAH"
-    }
-  ]
+  contents:[
+      {
+      src:'http://bighappyface.com/Happy%20Face%20200x200.png'
+      },
+      {
+        src:''
+      },
+      {
+        src:''
+      },
+      {
+        src:''
+      }
+    ]
 }
   ];
   $scope.toggleGroup = function(group) {
