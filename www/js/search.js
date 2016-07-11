@@ -22,7 +22,7 @@ angular.module('SearchCtrl', [])
 		compile: function (element, attrs) {
 			var icon=attrs.icon
 					|| (ionic.Platform.isAndroid() && 'ion-android-search')
-					|| (ionic.Platform.isIOS()     && 'ion-ios7-search')
+					|| (ionic.Platform.isIOS()     && 'ion-search')
 					|| 'ion-search';
 			angular.element(element[0].querySelector('.icon')).addClass(icon);
 
