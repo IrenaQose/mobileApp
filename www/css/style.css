@@ -241,20 +241,70 @@ ion-item.item.item-complex{
   height: 100%;
 }
 .searchBar .searchTxt input {
-  background-color: inherit;
-  color: #222;
+	background-color: inherit;
+	color: #22b573;
   width:100%;
   padding-left: 5px;
   padding-right:5px;
 }
+.search-button {
+  border: none;
+  background-color: #f8f8f8;
+}
+.bar button {
+  font-size: 22px;
+}
+.arrow-up .ion-ios-arrow-thin-up {
+  font-size:50px;
+  width:50px;
+  padding-left: 14px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  margin-left: 60px;
+  position: absolute;
+  margin-top: 15px;
+}
+.search-content {
+  position: absolute;
+  margin-top: 50%;
+}
+.search-content h3 {
+  color: #fff;
+  font-size: 31px;
+  font-weight: 200;
+  padding: 0 35px;
+  text-align: center;
+}
+#player-search {
+  float:right;
+  margin-right: 0;
+  margin-bottom: 100px;
+  position: initial;
+  margin-top: 100%;
+}
+#player-search .item {
+  padding-bottom: 16px;
+  text-align:right;
+}
+#player-search .item p {
+  color:black;
+  font-family: sans-serif;
+  font-weight:bold;
+  line-height: 1;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
 @media(max-width:340px){
-  #dash-row {
-    overflow: hidden;
-  }
-  #dash-row p {
-    font-size:12px;
-  }
-  }/*end players styles*/
+#dash-row {
+  overflow: hidden;
+}
+#dash-row p {
+  font-size:12px;
+}
+}/*end players styles*/
   /*playlist style*/
   ion-item.item-stable.item.ng-binding{
     background-color: #fff;
