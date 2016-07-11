@@ -315,5 +315,7 @@ ion-item.item.item-complex{
     border-color:rgb(34,181,115);
     color: #000;
     padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-weight: 500;
   }
