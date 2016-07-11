@@ -1,6 +1,9 @@
 /*sidemenu style*/
- .red {
-padding-top: 30px;
+button.button.button-icon.button-clear.ion-navicon{
+  color: #f8f8f8;
+}
+.red {
+  padding-top: 30px;
 }
 ion-side-menu.balanced.menu.menu-left{
   background-color: rgb(34,181,115);
@@ -249,8 +252,8 @@ ion-item.item.item-complex{
   height: 100%;
 }
 .searchBar .searchTxt input {
-	background-color: inherit;
-	color: #22b573;
+  background-color: inherit;
+  color: #22b573;
   width:100%;
   padding-left: 5px;
   padding-right:5px;
@@ -306,13 +309,13 @@ ion-item.item.item-complex{
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 @media(max-width:340px){
-#dash-row {
-  overflow: hidden;
-}
-#dash-row p {
-  font-size:12px;
-}
-}/*end players styles*/
+  #dash-row {
+    overflow: hidden;
+  }
+  #dash-row p {
+    font-size:12px;
+  }
+  }/*end players styles*/
   /*playlist style*/
   ion-item.item-stable.item.ng-binding{
     background-color: #fff;
