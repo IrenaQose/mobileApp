@@ -264,6 +264,39 @@ ion-item.item.item-complex{
   position: absolute;
   margin-top: 15px;
 }
+.search-content {
+  position: absolute;
+  margin-top: 50%;
+}
+.search-content h3 {
+  color: #fff;
+  font-size: 31px;
+  font-weight: 200;
+  padding: 0 35px;
+  text-align: center;
+}
+#player-search {
+  float:right;
+  margin-right: 0;
+  margin-bottom: 100px;
+  position: initial;
+  margin-top: 100%;
+}
+#player-search .item {
+  padding-bottom: 16px;
+  text-align:right;
+}
+#player-search .item p {
+  color:black;
+  font-family: sans-serif;
+  font-weight:bold;
+  line-height: 1;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
 @media(max-width:340px){
 #dash-row {
   overflow: hidden;
