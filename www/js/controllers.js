@@ -48,23 +48,15 @@ angular.module('starter.controllers', ['ionic'])
     title: "Playlist numero uno",
     contents: [
       {
-        // src: [
-        //   {
-        //     img:'http://bighappyface.com/Happy%20Face%20200x200.png'
-        //   },
-        //   {
-        //     img:'http://bighappyface.com/Happy%20Face%20200x200.png'
-        //   }
-        // ]
         src:'http://bighappyface.com/Happy%20Face%20200x200.png'
-      }
+           }
     ]
   },
   {
     title: "Playlist numero due",
     contents: [
       {
-        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
+        src: 'http://bighappyface.com/Happy%20Face%20200x200.png'
       },
       {
         src:''
