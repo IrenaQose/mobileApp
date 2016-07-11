@@ -45,82 +45,91 @@ angular.module('starter.controllers', ['ionic'])
 
 .controller('PlaylistsCtrl', function($scope) {
   $scope.groups = [{
-      title: "Playlist numero uno",
-      contents: [
-        {
-          line: "DONT BE AFRAID"
-        },
-        {
-    	    line: "WHY, WHAT & WHO"
-        },
-        {
-    			line: "PITCH OR PRESENT"
-        },
-        {
-    			line: "GREAT PRESENTATIONS"
-        }
-      ]
-    },
-    {
-      title: "Playlist numero due",
-      contents: [
-        {
-          line: "WHY?"
-        },
-        {
-    	    line: "WHAT IS THE MESSAGE?"
-        },
-        {
-    			line: "WHAT IS THE VEHICLE?"
-        },
-        {
-    			line: "WHO ARE THE AUDIENCE?"
-        }
-      ]
-    },
-      {
-      title: "Itinerario interno",
-      contents: [
-        {
-          line: "BLAH"
-        },
-        {
-    	    line: "BLAH"
-        }
-      ]
-    },
-    {
-    title: "Tour completo",
+    title: "Playlist numero uno",
     contents: [
       {
-        line: "BLAH"
+        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
+           }
+    ]
+  },
+  {
+    title: "Playlist numero due",
+    contents: [
+      {
+        src: 'http://bighappyface.com/Happy%20Face%20200x200.png'
       },
       {
-        line: "BLAH"
+        src:''
+      },
+      {
+        src:''
+      },
+      {
+        src:''
       }
     ]
   },
   {
-  title: "Itinerario esterno",
-  contents: [
-    {
-      line: "BLAH"
-    },
-    {
-      line: "BLAH"
-    }
-  ]
-}
-  ];
-  $scope.toggleGroup = function(group) {
-    if ($scope.isGroupShown(group)) {
-      $scope.shownGroup = null;
-    } else {
-      $scope.shownGroup = group;
-    }
-  };
-  $scope.isGroupShown = function(group) {
-    return $scope.shownGroup === group;
-  };
+    title: "Itinerario interno",
+    contents: [
+      {
+        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
+      },
+      {
+        src:''
+      },
+      {
+        src:''
+      },
+      {
+        src:''
+      }
+    ]
+  },
+  {
+    title: "Tour completo",
+    contents:[
+      {
+        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
+      },
+      {
+        src:''
+      },
+      {
+        src:''
+      },
+      {
+        src:''
+      }
+    ]
+  },
+  {
+    title: "Itinerario esterno",
+    contents:[
+      {
+        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
+      },
+      {
+        src:''
+      },
+      {
+        src:''
+      },
+      {
+        src:''
+      }
+    ]
+  }
+];
+$scope.toggleGroup = function(group) {
+  if ($scope.isGroupShown(group)) {
+    $scope.shownGroup = null;
+  } else {
+    $scope.shownGroup = group;
+  }
+};
+$scope.isGroupShown = function(group) {
+  return $scope.shownGroup === group;
+};
 
 });

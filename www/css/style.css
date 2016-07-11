@@ -1,4 +1,7 @@
 /*sidemenu style*/
+.red {
+  padding-top: 30px;
+}
 ion-side-menu.balanced.menu.menu-left{
   background-color: rgb(34,181,115);
 }
@@ -32,7 +35,7 @@ ion-side-menu.balanced.menu.menu-left{
   padding-top: 30px;
 }
 .item-complex .item-content{
-padding: 1px 1px 10px 16px;
+  padding: 1px 1px 15px 16px;
 }
 ion-item.pad.item.item-complex{
   padding-top: 30px;
@@ -40,6 +43,11 @@ ion-item.pad.item.item-complex{
 ion-item.item.item-complex{
   font-weight: 500;
 }
+.item .item-content.activated{
+  border-color: rgb(34,181,115);
+  background-color: rgb(34,181,115);
+}
+
 /*end of sidemenu style*/
 
 
@@ -93,6 +101,7 @@ ion-item.item.item-complex{
 .slider-page img{
   width: 100%;
   height: 200px;
+<<<<<<< HEAD
 }
 .slider-page{
   padding-top: 30%;
@@ -134,9 +143,6 @@ ion-item.item.item-complex{
 }
 .bar-header {
   background-color: #e5e5e5;
-}
-#dash-list #first-divider{
-  margin-top: 54px;
 }
 #dash-list  .item-divider {
   font-size: 14px;
@@ -228,52 +234,117 @@ ion-item.item.item-complex{
 }
 /* ------- SEARCH ----*/
 .searchBar {
-	color: #fff;
-	margin: 0 !important;
-	padding: 0;
+  color: #fff;
+  margin: 0 !important;
+  padding: 0;
 }
 .searchBar .icon {
-	font-size: 27px;
-	line-height: 1.2;
-	padding-right: 6px;
-	padding-left: 6px;
+  font-size: 27px;
+  line-height: 1.2;
+  padding-right: 6px;
+  padding-left: 6px;
 }
 .searchBar .searchTxt {
-	border-bottom: 1px solid #fff;
-	left: 55px;
-	width: calc(100% - 100px);
-	position: fixed;
-	height: calc(100% - 10px);
+  border-bottom: 1px solid #fff;
+  left: 55px;
+  width: calc(100% - 100px);
+  position: fixed;
+  height: calc(100% - 10px);
 }
 .searchBar.numicons2 .searchTxt {
-	width: calc(100% - 135px);
+  width: calc(100% - 135px);
 }
 .searchBar .searchTxt > .bgdiv {
-	background-color: #fff;
-	width: 100%;
-	height: 100%;
-	position: absolute;
-	/*opacity: 0.3;*/
+  background-color: #fff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  /*opacity: 0.3;*/
 }
 .searchBar .searchTxt > .bgtxt {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 .searchBar .searchTxt input {
-	background-color: inherit;
-	color: #222;
+  background-color: inherit;
+  color: #22b573;
   width:100%;
-	padding-left: 5px;
-	padding-right:5px;
+  padding-left: 5px;
+  padding-right:5px;
+}
+.search-button {
+  border: none;
+  background-color: #f8f8f8;
+}
+.bar button {
+  font-size: 22px;
+}
+.arrow-up .ion-ios-arrow-thin-up {
+  font-size:50px;
+  width:50px;
+  padding-left: 14px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  margin-left: 60px;
+  position: absolute;
+  margin-top: 20px;
+}
+.search-content {
+  position: absolute;
+  margin-top: 50%;
+}
+.search-content h3 {
+  color: #fff;
+  font-size: 31px;
+  font-weight: 200;
+  padding: 0 35px;
+  text-align: center;
+}
+#player-search {
+  float:right;
+  margin-right: 0;
+  margin-bottom: 100px;
+  position: initial;
+  margin-top: 100%;
+}
+#player-search .item {
+  padding-bottom: 16px;
+  text-align:right;
+  padding-right: 5px;
+}
+#player-search .item p {
+  color:black;
+  font-family: sans-serif;
+  font-weight:bold;
+  line-height: 1;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
 }
 @media(max-width:340px){
-#dash-row {
-  overflow: hidden;
-}
-#dash-row p {
-  font-size:12px;
-}
-}
+  #dash-row {
+    overflow: hidden;
+  }
+  #dash-row p {
+    font-size:12px;
+  }
+  }/*end players styles*/
+  /*playlist style*/
+  ion-item.item-stable.item.ng-binding{
+    background-color: #fff;
+    text-align: left;
+    padding-bottom: 15px;
+    font-size: 18px;
+    border-width: 1px;
+    border-color:rgb(34,181,115);
+    color: #000;
+    padding-left: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-weight: 500;
+  }

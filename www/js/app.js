@@ -56,6 +56,14 @@ angular.module('starter', ['ionic', 'starter.controllers', 'SearchCtrl'])
       }
     }
   })
+  .state('app.search', {
+    url: '/search',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/search.html'
+      }
+    }
+  })
   .state('app.single', {
     url: '/playlist',
     views: {
