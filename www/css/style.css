@@ -327,3 +327,6 @@ ion-item.item.item-complex{
     padding-bottom: 20px;
     font-weight: 500;
   }
+  ion-item.item-accordion.item{
+    background-color: #fafafa;
+  }
