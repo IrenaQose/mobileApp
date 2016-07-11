@@ -48,24 +48,15 @@ angular.module('starter.controllers', ['ionic'])
     title: "Playlist numero uno",
     contents: [
       {
-        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
-           }
+        src:'../img/coop.jpg'
+      }
     ]
   },
   {
     title: "Playlist numero due",
     contents: [
       {
-        src: 'http://bighappyface.com/Happy%20Face%20200x200.png'
-      },
-      {
-        src:''
-      },
-      {
-        src:''
-      },
-      {
-        src:''
+        src:'../img/coop.jpg'
       }
     ]
   },
@@ -73,16 +64,7 @@ angular.module('starter.controllers', ['ionic'])
     title: "Itinerario interno",
     contents: [
       {
-        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
-      },
-      {
-        src:''
-      },
-      {
-        src:''
-      },
-      {
-        src:''
+        src:'../img/coop.jpg'
       }
     ]
   },
@@ -90,16 +72,7 @@ angular.module('starter.controllers', ['ionic'])
     title: "Tour completo",
     contents:[
       {
-        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
-      },
-      {
-        src:''
-      },
-      {
-        src:''
-      },
-      {
-        src:''
+        src:'../img/coop.jpg'
       }
     ]
   },
@@ -107,16 +80,7 @@ angular.module('starter.controllers', ['ionic'])
     title: "Itinerario esterno",
     contents:[
       {
-        src:'http://bighappyface.com/Happy%20Face%20200x200.png'
-      },
-      {
-        src:''
-      },
-      {
-        src:''
-      },
-      {
-        src:''
+        src:'../img/coop.jpg'
       }
     ]
   }
