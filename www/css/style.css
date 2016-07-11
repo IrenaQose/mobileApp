@@ -113,9 +113,6 @@ ion-item.item.item-complex{
 .bar-header {
   background-color: #e5e5e5;
 }
-#dash-list #first-divider{
-  margin-top: 54px;
-}
 #dash-list  .item-divider {
   font-size: 14px;
 }
@@ -262,7 +259,7 @@ ion-item.item.item-complex{
   border-radius: 30px;
   margin-left: 60px;
   position: absolute;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .search-content {
   position: absolute;
@@ -285,6 +282,7 @@ ion-item.item.item-complex{
 #player-search .item {
   padding-bottom: 16px;
   text-align:right;
+  padding-right: 5px;
 }
 #player-search .item p {
   color:black;
