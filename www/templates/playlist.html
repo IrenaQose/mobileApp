@@ -10,9 +10,11 @@
         {{group.title}}
       </ion-item>
       <div ng-show="isGroupShown(group)">
-        <ion-item ng-repeat="x in group.contents" class="item-accordion">
-          <img  class="img-responsive" ng-src="{{x.src}}" />
-        </ion-item>
+        <ion-scroll direction="x" class="wide-as-needed">
+          <ion-item ng-repeat="x in group.contents" class="item-accordion">
+            <img  class="img-responsive" ng-src="{{x.src}}" />
+          </ion-item>
+         </ion-scroll>
       </div>
     </div>
   </ion-list>
