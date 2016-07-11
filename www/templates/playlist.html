@@ -12,11 +12,22 @@
       <div ng-show="isGroupShown(group)">
         <ion-scroll direction="x" class="wide-as-needed">
           <ion-item ng-repeat="x in group.contents" class="item-accordion">
-            <img  class="img-responsive" ng-src="{{x.src}}" width="370" height="210" />
+            <img  class="img-responsive" ng-src="{{x.src}}" width="370" height="300" />
           </ion-item>
         </ion-scroll>
       </div>
     </div>
   </ion-list>
+  <div class="card" id="player1">
+    <div class="item item-text-wrap">
+      <p>R</p>
+      <p>E</p>
+      <p>Y</p>
+      <p>A</p>
+      <p>L</p>
+      <p>P</p>
+    </div>
+  </div>
+</div>
 </ion-content>
 </ion-view>
