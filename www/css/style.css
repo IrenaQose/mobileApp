@@ -1,4 +1,7 @@
 /*sidemenu style*/
+div.list {
+padding-top: 30px;
+}
 ion-side-menu.balanced.menu.menu-left{
   background-color: rgb(34,181,115);
 }
@@ -32,7 +35,7 @@ ion-side-menu.balanced.menu.menu-left{
   padding-top: 30px;
 }
 .item-complex .item-content{
-  padding: 1px 1px 10px 16px;
+  padding: 1px 1px 15px 16px;
 }
 ion-item.pad.item.item-complex{
   padding-top: 30px;
@@ -40,6 +43,11 @@ ion-item.pad.item.item-complex{
 ion-item.item.item-complex{
   font-weight: 500;
 }
+.item .item-content.activated{
+  border-color: rgb(34,181,115);
+  background-color: rgb(34,181,115);
+}
+
 /*end of sidemenu style*/
 
 
