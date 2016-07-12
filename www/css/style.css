@@ -101,7 +101,6 @@ ion-item.item.item-complex{
 .slider-page img{
   width: 100%;
   height: 200px;
-<<<<<<< HEAD
 }
 .slider-page{
   padding-top: 30%;
@@ -157,6 +156,8 @@ ion-item.item.item-complex{
   padding-bottom: 16px;
   text-align:right;
   background-color: #fff;
+  padding-left: 15px;
+  padding-right: 10px;
 }
 #player .item p {
   color:black;
@@ -294,7 +295,7 @@ ion-item.item.item-complex{
 }
 .search-content {
   position: absolute;
-  margin-top: 50%;
+  margin-top: 40%;
 }
 .search-content h3 {
   color: #fff;
@@ -325,6 +326,28 @@ ion-item.item.item-complex{
   -ms-transform: rotate(-90deg);
   -o-transform: rotate(-90deg);
   filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+ion-header-bar .search-btn {
+  background-color:#fff;
+  border:none;
+  height: 100%;
+}
+ion-header-bar input {
+  width:75%;
+}
+ion-header-bar .ion-close {
+  color:black;
+  font-size: 27px;
+  height: 100%;
+  border:none;
+  background-color: #fff;
+  float: right;
+  right: 0;
+  position: absolute;
+  top: 0;
+}
+.search-header-bar {
+  background-color: #fff;
 }
 @media(max-width:340px){
   #dash-row {

@@ -1,5 +1,10 @@
-<ion-view>
-  <search-bar ng-model="search"></search-bar>
+<ion-view hide-nav-bar="true">
+  <!-- <search-bar ng-model="search"></search-bar> -->
+  <ion-header-bar class="search-header-bar">
+    <button class="ion-search search-btn"></button>
+    <input type="text" placeholder="Search ...">
+    <button class="ion-close" ui-sref="app.playlists"></button>
+  </ion-header-bar>
   <ion-content>
     <div class="arrow-up">
       <i class="ion-ios-arrow-thin-up"></i>
